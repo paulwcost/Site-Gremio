@@ -339,7 +339,7 @@ main {
   }
   
   .footer-info a:hover {
-    color: #00ffd5;
+    color: #0044ff;
   }
   
   .footer-social a {
@@ -380,7 +380,7 @@ main {
   }
   
   .sobre-nos {
-    background: #f9fafc;
+    background: #f4f4f4;
     padding: 4rem 2rem;
     font-family: 'Segoe UI', sans-serif;
   }
