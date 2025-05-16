@@ -524,3 +524,97 @@ main {
     background-color: #005fa3;
   }
   
+
+  /* MEDIA QUERIES */
+
+/* Pequenos dispositivos - celulares pequenos */
+@media (max-width: 400px) {
+  .nav-header {
+      padding: 12px 5%;
+  }
+  .nav-brand h1 {
+      font-size: 1.2rem;
+  }
+  .nav-menu {
+      gap: 15px;
+      justify-content: center;
+      width: 100%;
+      margin-top: 10px;
+  }
+  .cards {
+      gap: 20px;
+      justify-content: center;
+  }
+  .card {
+      max-width: 100%;
+      padding: 20px;
+  }
+  .card h2 {
+      font-size: 1.4rem;
+  }
+  .card p {
+      font-size: 0.9rem;
+  }
+  .sobre-texto h2 {
+      font-size: 1.8rem;
+  }
+  .sobre-texto p {
+      font-size: 1rem;
+  }
+  .footer-content {
+      flex-direction: column;
+      gap: 1.5rem;
+  }
+}
+
+/* Dispositivos médios - tablets */
+@media (max-width: 768px) {
+  .nav-container {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+  .nav-menu {
+      width: 100%;
+      justify-content: space-around;
+      margin-top: 10px;
+      flex-wrap: wrap;
+  }
+  .cards {
+      justify-content: center;
+      gap: 25px;
+  }
+  .card {
+      max-width: 320px;
+  }
+  .sobre-container {
+      flex-direction: column;
+      gap: 2rem;
+  }
+  .sobre-texto, .sobre-imagem {
+      flex: 1 1 100%;
+  }
+  .sobre-texto h2 {
+      font-size: 2rem;
+  }
+}
+
+/* Dispositivos maiores - desktops pequenos e médios */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .cards {
+      gap: 30px;
+      justify-content: center;
+  }
+  .card {
+      max-width: 300px;
+  }
+}
+
+/* Grandes desktops */
+@media (min-width: 1200px) {
+  main {
+      padding: 60px 0;
+  }
+  .cards {
+      justify-content: flex-start;
+  }
+}
